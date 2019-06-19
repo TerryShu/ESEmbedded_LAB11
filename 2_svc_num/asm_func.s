@@ -38,7 +38,7 @@ sys_call:
 
 .global	sys_call_add
 sys_call_add:
-	SVC #0x2
+	SVC #0xA
 	bx	lr
 
 .type svc_handler, %function

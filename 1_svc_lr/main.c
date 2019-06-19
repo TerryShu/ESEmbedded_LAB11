@@ -23,7 +23,7 @@ int main(void)
 	printf("[Kernel] MSP: 0x%X \r\n", (unsigned int)read_msp());
 	printf("[Kernel] PSP: 0x%X \r\n\n", (unsigned int)read_psp());
 
-	printf("[Kernel] SVC.\r\n\n");
+	printf("===[Kernel] SVC.\r\n\n");
 	sys_call();
 	printf("[Kernel] SVC return.\r\n\n");
 
